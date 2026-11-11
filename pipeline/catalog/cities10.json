@@ -1,0 +1,182 @@
+[
+  {
+    "code": "13103",
+    "name": "港区",
+    "year": 2025,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-13103-minato-ku-2025",
+    "zip_url": "https://assets.cms.plateau.reearth.io/assets/ea/d75459-6d62-4a1f-8081-317603bd5f8d/13103_minato-ku_pref_2025_citygml_1_op.zip",
+    "zip_size": null,
+    "area": "新橋・虎ノ門周辺",
+    "origin": [
+      35.6652,
+      139.7572
+    ],
+    "meshes": [
+      "53393690",
+      "53393691"
+    ],
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/"
+  },
+  {
+    "code": "01100",
+    "name": "札幌市",
+    "year": 2020,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-01100-sapporo-shi-2020",
+    "zip_url": "https://assets.cms.plateau.reearth.io/assets/be/3b8cfb-5459-4f9d-b08c-fb4ab72fbdbd/01100_sapporo-shi_city_2020_citygml_7_op.zip",
+    "zip_size": null,
+    "area": "札幌駅～大通",
+    "origin": [
+      43.0642,
+      141.3506
+    ],
+    "meshes": [
+      "64414278",
+      "64414277"
+    ],
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/"
+  },
+  {
+    "code": "40130",
+    "name": "福岡市",
+    "year": 2024,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-40130-fukuoka-shi-2024",
+    "zip_url": "https://assets.cms.plateau.reearth.io/assets/c5/263250-3d72-486d-8b76-f8c62aaaca03/40130_fukuoka-shi_city_2024_citygml_2_op.zip",
+    "zip_size": null,
+    "area": "博多駅周辺",
+    "origin": [
+      33.5902,
+      130.4207
+    ],
+    "meshes": [
+      "50303303",
+      "50303313"
+    ],
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/"
+  },
+  {
+    "code": "14100",
+    "name": "横浜市",
+    "year": 2024,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-14100-yokohama-shi-2024",
+    "zip_url": "https://assets.cms.plateau.reearth.io/assets/04/96d45a-a30b-4c9f-88c0-c1323b5a0f86/14100_yokohama-shi_city_2024_citygml_2_op.zip",
+    "zip_size": null,
+    "area": "桜木町～みなとみらい",
+    "origin": [
+      35.4504,
+      139.6317
+    ],
+    "meshes": [
+      "53391540",
+      "53391530"
+    ],
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/"
+  },
+  {
+    "code": "23100",
+    "name": "名古屋市",
+    "year": 2022,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-23100-nagoya-shi-2022",
+    "zip_url": "https://assets.cms.plateau.reearth.io/assets/79/e43a02-06b6-40c2-ae97-51eba1b4297b/23100_nagoya-shi_city_2022_citygml_4_op.zip",
+    "zip_size": null,
+    "area": "名古屋駅周辺",
+    "origin": [
+      35.1709,
+      136.8824
+    ],
+    "meshes": [
+      "52366700",
+      "52366710"
+    ],
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/"
+  },
+  {
+    "code": "27100",
+    "name": "大阪市",
+    "year": 2024,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-27100-osaka-shi-2024",
+    "zip_url": "https://assets.cms.plateau.reearth.io/assets/40/a85f8e-049c-4b3f-a97b-4a217df787df/27100_osaka-shi_city_2024_citygml_1_op.zip",
+    "zip_size": null,
+    "area": "大阪駅・梅田",
+    "origin": [
+      34.7025,
+      135.4959
+    ],
+    "meshes": [
+      "52350349",
+      "52350329"
+    ],
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/"
+  },
+  {
+    "code": "26100",
+    "name": "京都市",
+    "year": 2023,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-26100-kyoto-shi-2023",
+    "zip_url": "https://assets.cms.plateau.reearth.io/assets/fb/0a073f-9951-49bf-b347-f267cc67bd81/26100_kyoto-shi_city_2023_citygml_1_op.zip",
+    "zip_size": null,
+    "area": "京都駅周辺",
+    "origin": [
+      34.986,
+      135.759
+    ],
+    "meshes": [
+      "52353680",
+      "52353670"
+    ],
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/"
+  },
+  {
+    "code": "04100",
+    "name": "仙台市",
+    "year": 2024,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-04100-sendai-shi-2024",
+    "zip_url": "https://assets.cms.plateau.reearth.io/assets/33/3feee9-fb3f-4c08-8f19-a45c75700e6d/04100_sendai-shi_city_2024_citygml_1_op.zip",
+    "zip_size": null,
+    "area": "仙台駅周辺",
+    "origin": [
+      38.2602,
+      140.8824
+    ],
+    "meshes": [
+      "57403710",
+      "57403700"
+    ],
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/"
+  },
+  {
+    "code": "34100",
+    "name": "広島市",
+    "year": 2024,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-34100-hiroshima-shi-2024",
+    "zip_url": "https://assets.cms.plateau.reearth.io/assets/cc/d28a0b-63c2-4da8-a8e2-2dc20fc263dc/34100_hiroshima-shi_city_2024_citygml_1_op.zip",
+    "zip_size": null,
+    "area": "広島駅周辺",
+    "origin": [
+      34.3975,
+      132.475
+    ],
+    "meshes": [
+      "51324377",
+      "51324378"
+    ],
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/"
+  },
+  {
+    "code": "14130",
+    "name": "川崎市",
+    "year": 2022,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-14130-kawasaki-shi-2022",
+    "zip_url": "https://assets.cms.plateau.reearth.io/assets/40/25bd0a-f174-4f55-a9bd-0e6868ece0ae/14130_kawasaki-shi_city_2022_citygml_4_op.zip",
+    "zip_size": null,
+    "area": "武蔵小杉駅周辺",
+    "origin": [
+      35.5751,
+      139.6596
+    ],
+    "meshes": [
+      "53392592",
+      "53392582"
+    ],
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/"
+  }
+]

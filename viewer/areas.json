@@ -1,0 +1,2937 @@
+{
+  "catalogAsOf": "2026-11-11",
+  "cities": [
+    {
+      "code": "01205",
+      "prefecture": "北海道",
+      "name": "室蘭市",
+      "year": "2022",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-01205-muroran-shi-2022"
+    },
+    {
+      "code": "01639",
+      "prefecture": "北海道",
+      "name": "更別村",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-01639-sarabetsu-mura-2023"
+    },
+    {
+      "code": "02208",
+      "prefecture": "青森県",
+      "name": "むつ市",
+      "year": "2022",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-02208-mutsu-shi-2022"
+    },
+    {
+      "code": "02321",
+      "prefecture": "青森県",
+      "name": "鰺ヶ沢町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-02321-ajigasawa-machi-2025"
+    },
+    {
+      "code": "03201",
+      "prefecture": "岩手県",
+      "name": "盛岡市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-03201-morioka-shi-2024"
+    },
+    {
+      "code": "03202",
+      "prefecture": "岩手県",
+      "name": "宮古市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-03202-miyako-shi-2025"
+    },
+    {
+      "code": "05204",
+      "prefecture": "秋田県",
+      "name": "大館市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-05204-odate-shi-2024"
+    },
+    {
+      "code": "07201",
+      "prefecture": "福島県",
+      "name": "福島市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-07201-fukushima-shi-2025"
+    },
+    {
+      "code": "07203",
+      "prefecture": "福島県",
+      "name": "郡山市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-07203-koriyama-shi-2020"
+    },
+    {
+      "code": "07204",
+      "prefecture": "福島県",
+      "name": "いわき市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-07204-iwaki-shi-2020"
+    },
+    {
+      "code": "07205",
+      "prefecture": "福島県",
+      "name": "白河市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-07205-shirakawa-shi-2020"
+    },
+    {
+      "code": "07209",
+      "prefecture": "福島県",
+      "name": "相馬市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-07209-soma-shi-2023"
+    },
+    {
+      "code": "07212",
+      "prefecture": "福島県",
+      "name": "南相馬市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-07212-minamisouma-shi-2022"
+    },
+    {
+      "code": "08220",
+      "prefecture": "茨城県",
+      "name": "つくば市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-08220-tsukuba-shi-2023"
+    },
+    {
+      "code": "08234",
+      "prefecture": "茨城県",
+      "name": "鉾田市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-08234-hokota-shi-2022"
+    },
+    {
+      "code": "08546",
+      "prefecture": "茨城県",
+      "name": "境町",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-08546-sakai-machi-2023"
+    },
+    {
+      "code": "09201",
+      "prefecture": "栃木県",
+      "name": "宇都宮市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-09201-utsunomiya-shi-2023"
+    },
+    {
+      "code": "10201",
+      "prefecture": "群馬県",
+      "name": "前橋市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-10201-maebashi-shi-2023"
+    },
+    {
+      "code": "10203",
+      "prefecture": "群馬県",
+      "name": "桐生市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-10203-kiryu-shi-2020"
+    },
+    {
+      "code": "10207",
+      "prefecture": "群馬県",
+      "name": "館林市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-10207-tatebayashi-shi-2020"
+    },
+    {
+      "code": "11100",
+      "prefecture": "埼玉県",
+      "name": "さいたま市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11100-saitama-shi-2025"
+    },
+    {
+      "code": "11202",
+      "prefecture": "埼玉県",
+      "name": "熊谷市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11202-kumagaya-shi-2025"
+    },
+    {
+      "code": "11203",
+      "prefecture": "埼玉県",
+      "name": "川口市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11203-kawaguchi-shi-2024"
+    },
+    {
+      "code": "11207",
+      "prefecture": "埼玉県",
+      "name": "秩父市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11207-chichibu-shi-2025"
+    },
+    {
+      "code": "11208",
+      "prefecture": "埼玉県",
+      "name": "所沢市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11208-tokorozawa-shi-2024"
+    },
+    {
+      "code": "11210",
+      "prefecture": "埼玉県",
+      "name": "加須市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11210-kazo-shi-2023"
+    },
+    {
+      "code": "11211",
+      "prefecture": "埼玉県",
+      "name": "本庄市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11211-honjo-shi-2025"
+    },
+    {
+      "code": "11214",
+      "prefecture": "埼玉県",
+      "name": "春日部市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11214-kasukabe-shi-2023"
+    },
+    {
+      "code": "11215",
+      "prefecture": "埼玉県",
+      "name": "狭山市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11215-sayama-shi-2025"
+    },
+    {
+      "code": "11216",
+      "prefecture": "埼玉県",
+      "name": "羽生市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11216-hanyu-shi-2025"
+    },
+    {
+      "code": "11217",
+      "prefecture": "埼玉県",
+      "name": "鴻巣市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11217-konosu-shi-2024"
+    },
+    {
+      "code": "11218",
+      "prefecture": "埼玉県",
+      "name": "深谷市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11218-fukaya-shi-2025"
+    },
+    {
+      "code": "11219",
+      "prefecture": "埼玉県",
+      "name": "上尾市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11219-ageo-shi-2025"
+    },
+    {
+      "code": "11221",
+      "prefecture": "埼玉県",
+      "name": "草加市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11221-soka-shi-2025"
+    },
+    {
+      "code": "11222",
+      "prefecture": "埼玉県",
+      "name": "越谷市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11222-koshigaya-shi-2023"
+    },
+    {
+      "code": "11223",
+      "prefecture": "埼玉県",
+      "name": "蕨市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11223-warabi-shi-2024"
+    },
+    {
+      "code": "11224",
+      "prefecture": "埼玉県",
+      "name": "戸田市",
+      "year": "2022",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11224-toda-shi-2022"
+    },
+    {
+      "code": "11225",
+      "prefecture": "埼玉県",
+      "name": "入間市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11225-iruma-shi-2025"
+    },
+    {
+      "code": "11227",
+      "prefecture": "埼玉県",
+      "name": "朝霞市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11227-asaka-shi-2025"
+    },
+    {
+      "code": "11228",
+      "prefecture": "埼玉県",
+      "name": "志木市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11228-shiki-shi-2024"
+    },
+    {
+      "code": "11229",
+      "prefecture": "埼玉県",
+      "name": "和光市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11229-wako-shi-2025"
+    },
+    {
+      "code": "11230",
+      "prefecture": "埼玉県",
+      "name": "新座市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11230-niiza-shi-2024"
+    },
+    {
+      "code": "11231",
+      "prefecture": "埼玉県",
+      "name": "桶川市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11231-okegawa-shi-2025"
+    },
+    {
+      "code": "11232",
+      "prefecture": "埼玉県",
+      "name": "久喜市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11232-kuki-shi-2023"
+    },
+    {
+      "code": "11233",
+      "prefecture": "埼玉県",
+      "name": "北本市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11233-kitamoto-shi-2025"
+    },
+    {
+      "code": "11234",
+      "prefecture": "埼玉県",
+      "name": "八潮市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11234-yashio-shi-2023"
+    },
+    {
+      "code": "11235",
+      "prefecture": "埼玉県",
+      "name": "富士見市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11235-fujimi-shi-2024"
+    },
+    {
+      "code": "11237",
+      "prefecture": "埼玉県",
+      "name": "三郷市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11237-misato-shi-2024"
+    },
+    {
+      "code": "11238",
+      "prefecture": "埼玉県",
+      "name": "蓮田市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11238-hasuda-shi-2022"
+    },
+    {
+      "code": "11239",
+      "prefecture": "埼玉県",
+      "name": "坂戸市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11239-sakado-shi-2025"
+    },
+    {
+      "code": "11240",
+      "prefecture": "埼玉県",
+      "name": "幸手市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11240-satte-shi-2024"
+    },
+    {
+      "code": "11241",
+      "prefecture": "埼玉県",
+      "name": "鶴ヶ島市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11241-tsurugashima-shi-2024"
+    },
+    {
+      "code": "11243",
+      "prefecture": "埼玉県",
+      "name": "吉川市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11243-yoshikawa-shi-2023"
+    },
+    {
+      "code": "11245",
+      "prefecture": "埼玉県",
+      "name": "ふじみ野市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11245-fujimino-shi-2025"
+    },
+    {
+      "code": "11246",
+      "prefecture": "埼玉県",
+      "name": "白岡市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11246-shiraoka-shi-2023"
+    },
+    {
+      "code": "11301",
+      "prefecture": "埼玉県",
+      "name": "伊奈町",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11301-ina-machi-2024"
+    },
+    {
+      "code": "11324",
+      "prefecture": "埼玉県",
+      "name": "三芳町",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11324-miyoshi-machi-2024"
+    },
+    {
+      "code": "11326",
+      "prefecture": "埼玉県",
+      "name": "毛呂山町",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11326-moroyama-machi-2020"
+    },
+    {
+      "code": "11341",
+      "prefecture": "埼玉県",
+      "name": "滑川町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11341-namegawa-machi-2025"
+    },
+    {
+      "code": "11342",
+      "prefecture": "埼玉県",
+      "name": "嵐山町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11342-ranzan-machi-2025"
+    },
+    {
+      "code": "11343",
+      "prefecture": "埼玉県",
+      "name": "小川町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11343-ogawa-machi-2025"
+    },
+    {
+      "code": "11346",
+      "prefecture": "埼玉県",
+      "name": "川島町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11346-kawajima-machi-2025"
+    },
+    {
+      "code": "11347",
+      "prefecture": "埼玉県",
+      "name": "吉見町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11347-yoshimi-machi-2025"
+    },
+    {
+      "code": "11348",
+      "prefecture": "埼玉県",
+      "name": "鳩山町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11348-hatoyama-machi-2025"
+    },
+    {
+      "code": "11385",
+      "prefecture": "埼玉県",
+      "name": "上里町",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11385-kamisato-machi-2024"
+    },
+    {
+      "code": "11408",
+      "prefecture": "埼玉県",
+      "name": "寄居町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11408-yorii-machi-2025"
+    },
+    {
+      "code": "11442",
+      "prefecture": "埼玉県",
+      "name": "宮代町",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11442-miyashiro-machi-2023"
+    },
+    {
+      "code": "11464",
+      "prefecture": "埼玉県",
+      "name": "杉戸町",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11464-sugito-machi-2023"
+    },
+    {
+      "code": "11465",
+      "prefecture": "埼玉県",
+      "name": "松伏町",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-11465-matsubushi-machi-2023"
+    },
+    {
+      "code": "12100",
+      "prefecture": "千葉県",
+      "name": "千葉市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-12100-chiba-shi-2024"
+    },
+    {
+      "code": "12206",
+      "prefecture": "千葉県",
+      "name": "木更津市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-12206-kisarazu-shi-2024"
+    },
+    {
+      "code": "12210",
+      "prefecture": "千葉県",
+      "name": "茂原市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-12210-mobara-shi-2022"
+    },
+    {
+      "code": "12217",
+      "prefecture": "千葉県",
+      "name": "柏市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-12217-kashiwa-shi-2020"
+    },
+    {
+      "code": "12221",
+      "prefecture": "千葉県",
+      "name": "八千代市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-12221-yachiyo-shi-2022"
+    },
+    {
+      "code": "12347",
+      "prefecture": "千葉県",
+      "name": "多古町（テスト）",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-12347-tako-machi-2025"
+    },
+    {
+      "code": "13101",
+      "prefecture": "東京都",
+      "name": "千代田区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13101-chiyoda-ku-2025"
+    },
+    {
+      "code": "13102",
+      "prefecture": "東京都",
+      "name": "中央区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13102-chuo-ku-2025"
+    },
+    {
+      "code": "13104",
+      "prefecture": "東京都",
+      "name": "新宿区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13104-shinjuku-ku-2025"
+    },
+    {
+      "code": "13105",
+      "prefecture": "東京都",
+      "name": "文京区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13105-bunkyo-ku-2025"
+    },
+    {
+      "code": "13106",
+      "prefecture": "東京都",
+      "name": "台東区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13106-taito-ku-2025"
+    },
+    {
+      "code": "13107",
+      "prefecture": "東京都",
+      "name": "墨田区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13107-sumida-ku-2025"
+    },
+    {
+      "code": "13108",
+      "prefecture": "東京都",
+      "name": "江東区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13108-koto-ku-2025"
+    },
+    {
+      "code": "13109",
+      "prefecture": "東京都",
+      "name": "品川区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13109-shinagawa-ku-2025"
+    },
+    {
+      "code": "13110",
+      "prefecture": "東京都",
+      "name": "目黒区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13110-meguro-ku-2025"
+    },
+    {
+      "code": "13111",
+      "prefecture": "東京都",
+      "name": "大田区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13111-ota-ku-2025"
+    },
+    {
+      "code": "13112",
+      "prefecture": "東京都",
+      "name": "世田谷区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13112-setagaya-ku-2025"
+    },
+    {
+      "code": "13113",
+      "prefecture": "東京都",
+      "name": "渋谷区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13113-shibuya-ku-2025"
+    },
+    {
+      "code": "13114",
+      "prefecture": "東京都",
+      "name": "中野区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13114-nakano-ku-2025"
+    },
+    {
+      "code": "13115",
+      "prefecture": "東京都",
+      "name": "杉並区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13115-suginami-ku-2025"
+    },
+    {
+      "code": "13116",
+      "prefecture": "東京都",
+      "name": "豊島区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13116-toshima-ku-2025"
+    },
+    {
+      "code": "13117",
+      "prefecture": "東京都",
+      "name": "北区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13117-kita-ku-2025"
+    },
+    {
+      "code": "13118",
+      "prefecture": "東京都",
+      "name": "荒川区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13118-arakawa-ku-2025"
+    },
+    {
+      "code": "13119",
+      "prefecture": "東京都",
+      "name": "板橋区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13119-itabashi-ku-2025"
+    },
+    {
+      "code": "13120",
+      "prefecture": "東京都",
+      "name": "練馬区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13120-nerima-ku-2025"
+    },
+    {
+      "code": "13121",
+      "prefecture": "東京都",
+      "name": "足立区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13121-adachi-ku-2025"
+    },
+    {
+      "code": "13122",
+      "prefecture": "東京都",
+      "name": "葛飾区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13122-katsushika-ku-2025"
+    },
+    {
+      "code": "13123",
+      "prefecture": "東京都",
+      "name": "江戸川区",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13123-edogawa-ku-2025"
+    },
+    {
+      "code": "13201",
+      "prefecture": "東京都",
+      "name": "八王子市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13201-hachioji-shi-2025"
+    },
+    {
+      "code": "13202",
+      "prefecture": "東京都",
+      "name": "立川市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13202-tachikawa-shi-2025"
+    },
+    {
+      "code": "13203",
+      "prefecture": "東京都",
+      "name": "武蔵野市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13203-musashino-shi-2025"
+    },
+    {
+      "code": "13204",
+      "prefecture": "東京都",
+      "name": "三鷹市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13204-mitaka-shi-2025"
+    },
+    {
+      "code": "13205",
+      "prefecture": "東京都",
+      "name": "青梅市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13205-ome-shi-2025"
+    },
+    {
+      "code": "13206",
+      "prefecture": "東京都",
+      "name": "府中市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13206-fuchu-shi-2025"
+    },
+    {
+      "code": "13207",
+      "prefecture": "東京都",
+      "name": "昭島市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13207-akishima-shi-2025"
+    },
+    {
+      "code": "13208",
+      "prefecture": "東京都",
+      "name": "調布市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13208-chofu-shi-2025"
+    },
+    {
+      "code": "13209",
+      "prefecture": "東京都",
+      "name": "町田市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13209-machida-shi-2025"
+    },
+    {
+      "code": "13210",
+      "prefecture": "東京都",
+      "name": "小金井市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13210-koganei-shi-2025"
+    },
+    {
+      "code": "13211",
+      "prefecture": "東京都",
+      "name": "小平市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13211-kodaira-shi-2025"
+    },
+    {
+      "code": "13212",
+      "prefecture": "東京都",
+      "name": "日野市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13212-hino-shi-2025"
+    },
+    {
+      "code": "13213",
+      "prefecture": "東京都",
+      "name": "東村山市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13213-higashimurayama-shi-2025"
+    },
+    {
+      "code": "13214",
+      "prefecture": "東京都",
+      "name": "国分寺市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13214-kokubunji-shi-2025"
+    },
+    {
+      "code": "13215",
+      "prefecture": "東京都",
+      "name": "国立市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13215-kunitachi-shi-2025"
+    },
+    {
+      "code": "13218",
+      "prefecture": "東京都",
+      "name": "福生市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13218-fussa-shi-2025"
+    },
+    {
+      "code": "13219",
+      "prefecture": "東京都",
+      "name": "狛江市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13219-komae-shi-2025"
+    },
+    {
+      "code": "13220",
+      "prefecture": "東京都",
+      "name": "東大和市",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13220-higashiyamato-shi-2025"
+    },
+    {
+      "code": "13221",
+      "prefecture": "東京都",
+      "name": "清瀬市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13221-kiyose-shi-2025"
+    },
+    {
+      "code": "13222",
+      "prefecture": "東京都",
+      "name": "東久留米市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13222-higashikurume-shi-2025"
+    },
+    {
+      "code": "13223",
+      "prefecture": "東京都",
+      "name": "武蔵村山市",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13223-musashimurayama-shi-2025"
+    },
+    {
+      "code": "13224",
+      "prefecture": "東京都",
+      "name": "多摩市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13224-tama-shi-2025"
+    },
+    {
+      "code": "13225",
+      "prefecture": "東京都",
+      "name": "稲城市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13225-inagi-shi-2025"
+    },
+    {
+      "code": "13227",
+      "prefecture": "東京都",
+      "name": "羽村市",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13227-hamura-shi-2025"
+    },
+    {
+      "code": "13228",
+      "prefecture": "東京都",
+      "name": "あきる野市",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13228-akiruno-shi-2025"
+    },
+    {
+      "code": "13229",
+      "prefecture": "東京都",
+      "name": "西東京市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13229-nishitokyo-shi-2025"
+    },
+    {
+      "code": "13303",
+      "prefecture": "東京都",
+      "name": "瑞穂町",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13303-mizuho-machi-2025"
+    },
+    {
+      "code": "13305",
+      "prefecture": "東京都",
+      "name": "日の出町",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13305-hinode-machi-2025"
+    },
+    {
+      "code": "13307",
+      "prefecture": "東京都",
+      "name": "檜原村",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13307-hinohara-mura-2025"
+    },
+    {
+      "code": "13308",
+      "prefecture": "東京都",
+      "name": "奥多摩町",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13308-okutama-machi-2025"
+    },
+    {
+      "code": "13361",
+      "prefecture": "東京都",
+      "name": "大島町",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13361-oshima-machi-2024"
+    },
+    {
+      "code": "13362",
+      "prefecture": "東京都",
+      "name": "利島村",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13362-toshima-mura-2024"
+    },
+    {
+      "code": "13363",
+      "prefecture": "東京都",
+      "name": "新島村",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13363-niijima-mura-2024"
+    },
+    {
+      "code": "13364",
+      "prefecture": "東京都",
+      "name": "神津島村",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13364-kozushima-mura-2024"
+    },
+    {
+      "code": "13381",
+      "prefecture": "東京都",
+      "name": "三宅村",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13381-miyake-mura-2024"
+    },
+    {
+      "code": "13382",
+      "prefecture": "東京都",
+      "name": "御蔵島村",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13382-mikurajima-mura-2024"
+    },
+    {
+      "code": "13401",
+      "prefecture": "東京都",
+      "name": "八丈町",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13401-hachijo-machi-2024"
+    },
+    {
+      "code": "13402",
+      "prefecture": "東京都",
+      "name": "青ケ島村",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13402-aogashima-mura-2024"
+    },
+    {
+      "code": "13421",
+      "prefecture": "東京都",
+      "name": "小笠原村",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-13421-ogasawara-mura-2025"
+    },
+    {
+      "code": "14150",
+      "prefecture": "神奈川県",
+      "name": "相模原市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-14150-sagamihara-shi-2024"
+    },
+    {
+      "code": "14201",
+      "prefecture": "神奈川県",
+      "name": "横須賀市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-14201-yokosuka-shi-2020"
+    },
+    {
+      "code": "14204",
+      "prefecture": "神奈川県",
+      "name": "鎌倉市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-14204-kamakura-shi-2024"
+    },
+    {
+      "code": "14205",
+      "prefecture": "神奈川県",
+      "name": "藤沢市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-14205-fujisawa-shi-2025"
+    },
+    {
+      "code": "14212",
+      "prefecture": "神奈川県",
+      "name": "厚木市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-14212-atsugi-shi-2023"
+    },
+    {
+      "code": "14382",
+      "prefecture": "神奈川県",
+      "name": "箱根町",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-14382-hakone-machi-2020"
+    },
+    {
+      "code": "15100",
+      "prefecture": "新潟県",
+      "name": "新潟市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-15100-niigata-shi-2023"
+    },
+    {
+      "code": "15202",
+      "prefecture": "新潟県",
+      "name": "長岡市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-15202-nagaoka-shi-2024"
+    },
+    {
+      "code": "15204",
+      "prefecture": "新潟県",
+      "name": "三条市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-15204-sanjo-shi-2025"
+    },
+    {
+      "code": "15206",
+      "prefecture": "新潟県",
+      "name": "新発田市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-15206-shibata-shi-2025"
+    },
+    {
+      "code": "15209",
+      "prefecture": "新潟県",
+      "name": "加茂市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-15209-kamo-shi-2023"
+    },
+    {
+      "code": "15222",
+      "prefecture": "新潟県",
+      "name": "上越市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-15222-joetsu-shi-2023"
+    },
+    {
+      "code": "16202",
+      "prefecture": "富山県",
+      "name": "高岡市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-16202-takaoka-shi-2024"
+    },
+    {
+      "code": "16211",
+      "prefecture": "富山県",
+      "name": "射水市",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": ""
+    },
+    {
+      "code": "16321",
+      "prefecture": "富山県",
+      "name": "舟橋村",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-16321-funahashi-mura-2025"
+    },
+    {
+      "code": "17201",
+      "prefecture": "石川県",
+      "name": "金沢市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-17201-kanazawa-shi-2024"
+    },
+    {
+      "code": "17206",
+      "prefecture": "石川県",
+      "name": "加賀市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-17206-kaga-shi-2024"
+    },
+    {
+      "code": "19201",
+      "prefecture": "山梨県",
+      "name": "甲府市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-19201-kofu-shi-2023"
+    },
+    {
+      "code": "20201",
+      "prefecture": "長野県",
+      "name": "長野市",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-20201-nagano-shi-2024"
+    },
+    {
+      "code": "20202",
+      "prefecture": "長野県",
+      "name": "松本市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-20202-matsumoto-shi-2020"
+    },
+    {
+      "code": "20204",
+      "prefecture": "長野県",
+      "name": "岡谷市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-20204-okaya-shi-2022"
+    },
+    {
+      "code": "20206",
+      "prefecture": "長野県",
+      "name": "諏訪市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-20206-suwa-shi-2023"
+    },
+    {
+      "code": "20209",
+      "prefecture": "長野県",
+      "name": "伊那市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-20209-ina-shi-2020"
+    },
+    {
+      "code": "20213",
+      "prefecture": "長野県",
+      "name": "飯山市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-20213-iiyama-shi-2025"
+    },
+    {
+      "code": "20214",
+      "prefecture": "長野県",
+      "name": "茅野市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-20214-chino-shi-2023"
+    },
+    {
+      "code": "20217",
+      "prefecture": "長野県",
+      "name": "佐久市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-20217-saku-shi-2025"
+    },
+    {
+      "code": "20220",
+      "prefecture": "長野県",
+      "name": "安曇野市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-20220-azumino-shi-2025"
+    },
+    {
+      "code": "21201",
+      "prefecture": "岐阜県",
+      "name": "岐阜市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-21201-gifu-shi-2025"
+    },
+    {
+      "code": "21202",
+      "prefecture": "岐阜県",
+      "name": "大垣市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-21202-ogaki-shi-2025"
+    },
+    {
+      "code": "21211",
+      "prefecture": "岐阜県",
+      "name": "美濃加茂市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-21211-minokamo-shi-2024"
+    },
+    {
+      "code": "22100",
+      "prefecture": "静岡県",
+      "name": "静岡市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22100-shizuoka-shi-2023"
+    },
+    {
+      "code": "22130",
+      "prefecture": "静岡県",
+      "name": "浜松市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22130-hamamatsu-shi-2023"
+    },
+    {
+      "code": "22203",
+      "prefecture": "静岡県",
+      "name": "沼津市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22203-numazu-shi-2023"
+    },
+    {
+      "code": "22205",
+      "prefecture": "静岡県",
+      "name": "熱海市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22205-atami-shi-2023"
+    },
+    {
+      "code": "22206",
+      "prefecture": "静岡県",
+      "name": "三島市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22206-mishima-shi-2023"
+    },
+    {
+      "code": "22207",
+      "prefecture": "静岡県",
+      "name": "富士宮市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22207-fujinomiya-shi-2023"
+    },
+    {
+      "code": "22208",
+      "prefecture": "静岡県",
+      "name": "伊東市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22208-ito-shi-2023"
+    },
+    {
+      "code": "22209",
+      "prefecture": "静岡県",
+      "name": "島田市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22209-shimada-shi-2023"
+    },
+    {
+      "code": "22210",
+      "prefecture": "静岡県",
+      "name": "富士市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22210-fuji-shi-2023"
+    },
+    {
+      "code": "22211",
+      "prefecture": "静岡県",
+      "name": "磐田市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22211-iwata-shi-2023"
+    },
+    {
+      "code": "22212",
+      "prefecture": "静岡県",
+      "name": "焼津市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22212-yaizu-shi-2023"
+    },
+    {
+      "code": "22213",
+      "prefecture": "静岡県",
+      "name": "掛川市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22213-kakegawa-shi-2023"
+    },
+    {
+      "code": "22214",
+      "prefecture": "静岡県",
+      "name": "藤枝市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22214-fujieda-shi-2023"
+    },
+    {
+      "code": "22215",
+      "prefecture": "静岡県",
+      "name": "御殿場市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22215-gotenba-shi-2023"
+    },
+    {
+      "code": "22216",
+      "prefecture": "静岡県",
+      "name": "袋井市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22216-fukuroi-shi-2023"
+    },
+    {
+      "code": "22219",
+      "prefecture": "静岡県",
+      "name": "下田市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22219-shimoda-shi-2023"
+    },
+    {
+      "code": "22220",
+      "prefecture": "静岡県",
+      "name": "裾野市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22220-susono-shi-2023"
+    },
+    {
+      "code": "22221",
+      "prefecture": "静岡県",
+      "name": "湖西市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22221-kosai-shi-2023"
+    },
+    {
+      "code": "22222",
+      "prefecture": "静岡県",
+      "name": "伊豆市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22222-izu-shi-2023"
+    },
+    {
+      "code": "22223",
+      "prefecture": "静岡県",
+      "name": "御前崎市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22223-omaezaki-shi-2023"
+    },
+    {
+      "code": "22224",
+      "prefecture": "静岡県",
+      "name": "菊川市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22224-kikugawa-shi-2023"
+    },
+    {
+      "code": "22225",
+      "prefecture": "静岡県",
+      "name": "伊豆の国市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22225-izunokuni-shi-2023"
+    },
+    {
+      "code": "22226",
+      "prefecture": "静岡県",
+      "name": "牧之原市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22226-makinohara-shi-2023"
+    },
+    {
+      "code": "22301",
+      "prefecture": "静岡県",
+      "name": "東伊豆町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22301-higashiizu-cho-2023"
+    },
+    {
+      "code": "22302",
+      "prefecture": "静岡県",
+      "name": "河津町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22302-kawazu-cho-2023"
+    },
+    {
+      "code": "22304",
+      "prefecture": "静岡県",
+      "name": "南伊豆町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22304-minamiizu-cho-2023"
+    },
+    {
+      "code": "22305",
+      "prefecture": "静岡県",
+      "name": "松崎町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22305-matsuzaki-cho-2023"
+    },
+    {
+      "code": "22306",
+      "prefecture": "静岡県",
+      "name": "西伊豆町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22306-nishiizu-cho-2023"
+    },
+    {
+      "code": "22325",
+      "prefecture": "静岡県",
+      "name": "函南町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22325-kannami-cho-2023"
+    },
+    {
+      "code": "22341",
+      "prefecture": "静岡県",
+      "name": "清水町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22341-shimizu-cho-2023"
+    },
+    {
+      "code": "22342",
+      "prefecture": "静岡県",
+      "name": "長泉町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22342-nagaizumi-cho-2023"
+    },
+    {
+      "code": "22344",
+      "prefecture": "静岡県",
+      "name": "小山町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22344-oyama-cho-2023"
+    },
+    {
+      "code": "22424",
+      "prefecture": "静岡県",
+      "name": "吉田町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22424-yoshida-cho-2023"
+    },
+    {
+      "code": "22429",
+      "prefecture": "静岡県",
+      "name": "川根本町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22429-kawanehon-cho-2023"
+    },
+    {
+      "code": "22461",
+      "prefecture": "静岡県",
+      "name": "森町",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-22461-mori-machi-2023"
+    },
+    {
+      "code": "23201",
+      "prefecture": "愛知県",
+      "name": "豊橋市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-23201-toyohashi-shi-2024"
+    },
+    {
+      "code": "23202",
+      "prefecture": "愛知県",
+      "name": "岡崎市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-23202-okazaki-shi-2020"
+    },
+    {
+      "code": "23206",
+      "prefecture": "愛知県",
+      "name": "春日井市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-23206-kasugai-shi-2023"
+    },
+    {
+      "code": "23207",
+      "prefecture": "愛知県",
+      "name": "豊川市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-23207-toyokawa-shi-2022"
+    },
+    {
+      "code": "23208",
+      "prefecture": "愛知県",
+      "name": "津島市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-23208-tsushima-shi-2020"
+    },
+    {
+      "code": "23211",
+      "prefecture": "愛知県",
+      "name": "豊田市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-23211-toyota-shi-2023"
+    },
+    {
+      "code": "23212",
+      "prefecture": "愛知県",
+      "name": "安城市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-23212-anjo-shi-2020"
+    },
+    {
+      "code": "23230",
+      "prefecture": "愛知県",
+      "name": "日進市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-23230-nisshin-shi-2023"
+    },
+    {
+      "code": "24202",
+      "prefecture": "三重県",
+      "name": "四日市市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-24202-yokkaichi-shi-2022"
+    },
+    {
+      "code": "24203",
+      "prefecture": "三重県",
+      "name": "伊勢市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-24203-ise-shi-2024"
+    },
+    {
+      "code": "24212",
+      "prefecture": "三重県",
+      "name": "熊野市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-24212-kumano-shi-2022"
+    },
+    {
+      "code": "25203",
+      "prefecture": "滋賀県",
+      "name": "長浜市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-25203-nagahama-shi-2024"
+    },
+    {
+      "code": "25204",
+      "prefecture": "滋賀県",
+      "name": "近江八幡市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-25204-omihachiman-shi-2025"
+    },
+    {
+      "code": "26202",
+      "prefecture": "京都府",
+      "name": "舞鶴市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-26202-maizuru-shi-2025"
+    },
+    {
+      "code": "26465",
+      "prefecture": "京都府",
+      "name": "与謝野町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-26465-yosano-cho-2025"
+    },
+    {
+      "code": "27140",
+      "prefecture": "大阪府",
+      "name": "堺市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27140-sakai-shi-2024"
+    },
+    {
+      "code": "27202",
+      "prefecture": "大阪府",
+      "name": "岸和田市",
+      "year": "2024",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27202-kishiwadashi-2024"
+    },
+    {
+      "code": "27203",
+      "prefecture": "大阪府",
+      "name": "豊中市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27203-toyonaka-shi-2020"
+    },
+    {
+      "code": "27204",
+      "prefecture": "大阪府",
+      "name": "池田市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27204-ikeda-shi-2025"
+    },
+    {
+      "code": "27207",
+      "prefecture": "大阪府",
+      "name": "高槻市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27207-takatsuki-shi-2020"
+    },
+    {
+      "code": "27209",
+      "prefecture": "大阪府",
+      "name": "守口市",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27209-moriguchi-shi-2025"
+    },
+    {
+      "code": "27216",
+      "prefecture": "大阪府",
+      "name": "河内長野市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27216-kawachinagano-shi-2025"
+    },
+    {
+      "code": "27219",
+      "prefecture": "大阪府",
+      "name": "和泉市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27219-izumi-shi-2023"
+    },
+    {
+      "code": "27221",
+      "prefecture": "大阪府",
+      "name": "柏原市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27221-kashiwara-shi-2022"
+    },
+    {
+      "code": "27223",
+      "prefecture": "大阪府",
+      "name": "門真市",
+      "year": "2025",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27223-kadoma-shi-2025"
+    },
+    {
+      "code": "27224",
+      "prefecture": "大阪府",
+      "name": "摂津市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27224-settsu-shi-2020"
+    },
+    {
+      "code": "27227",
+      "prefecture": "大阪府",
+      "name": "東大阪市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27227-higashiosaka-shi-2024"
+    },
+    {
+      "code": "27341",
+      "prefecture": "大阪府",
+      "name": "忠岡町",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-27341-tadaoka-cho-2020"
+    },
+    {
+      "code": "28201",
+      "prefecture": "兵庫県",
+      "name": "姫路市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-28201-himeji-shi-2023"
+    },
+    {
+      "code": "28210",
+      "prefecture": "兵庫県",
+      "name": "加古川市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-28210-kakogawa-shi-2020"
+    },
+    {
+      "code": "28215",
+      "prefecture": "兵庫県",
+      "name": "三木市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-28215-miki-shi-2023"
+    },
+    {
+      "code": "28225",
+      "prefecture": "兵庫県",
+      "name": "朝来市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-28225-asago-shi-2022"
+    },
+    {
+      "code": "28229",
+      "prefecture": "兵庫県",
+      "name": "たつの市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-28229-tatsuno-shi-2023"
+    },
+    {
+      "code": "29210",
+      "prefecture": "奈良県",
+      "name": "香芝市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-29210-kashiba-shi-2025"
+    },
+    {
+      "code": "29343",
+      "prefecture": "奈良県",
+      "name": "三郷町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-29343-sango-cho-2025"
+    },
+    {
+      "code": "30201",
+      "prefecture": "和歌山県",
+      "name": "和歌山市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-30201-wakayama-shi-2023"
+    },
+    {
+      "code": "30406",
+      "prefecture": "和歌山県",
+      "name": "すさみ町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-30406-susami-cho-2025"
+    },
+    {
+      "code": "30422",
+      "prefecture": "和歌山県",
+      "name": "太地町",
+      "year": "2021",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-30422-taiji-cho-2021"
+    },
+    {
+      "code": "31201",
+      "prefecture": "鳥取県",
+      "name": "鳥取市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-31201-tottori-shi-2020"
+    },
+    {
+      "code": "31202",
+      "prefecture": "鳥取県",
+      "name": "米子市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-31202-yonago-shi-2024"
+    },
+    {
+      "code": "31204",
+      "prefecture": "鳥取県",
+      "name": "境港市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-31204-sakaiminato-shi-2022"
+    },
+    {
+      "code": "31384",
+      "prefecture": "鳥取県",
+      "name": "日吉津村",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-31384-hiezu-son-2023"
+    },
+    {
+      "code": "32201",
+      "prefecture": "島根県",
+      "name": "松江市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-32201-matsue-shi-2024"
+    },
+    {
+      "code": "32204",
+      "prefecture": "島根県",
+      "name": "益田市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-32204-masuda-shi-2024"
+    },
+    {
+      "code": "32528",
+      "prefecture": "島根県",
+      "name": "隠岐の島町",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-32528-okinoshima-cho-2024"
+    },
+    {
+      "code": "33100",
+      "prefecture": "岡山県",
+      "name": "岡山市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-33100-okayama-shi-2025"
+    },
+    {
+      "code": "33202",
+      "prefecture": "岡山県",
+      "name": "倉敷市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-33202-kurashiki-shi-2024"
+    },
+    {
+      "code": "33203",
+      "prefecture": "岡山県",
+      "name": "津山市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-33203-tsuyama-shi-2025"
+    },
+    {
+      "code": "33211",
+      "prefecture": "岡山県",
+      "name": "備前市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-33211-bizen-shi-2023"
+    },
+    {
+      "code": "33423",
+      "prefecture": "岡山県",
+      "name": "早島町",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-33423-hayashima-cho-2024"
+    },
+    {
+      "code": "34202",
+      "prefecture": "広島県",
+      "name": "呉市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-34202-kure-shi-2020"
+    },
+    {
+      "code": "34203",
+      "prefecture": "広島県",
+      "name": "竹原市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-34203-takehara-shi-2023"
+    },
+    {
+      "code": "34207",
+      "prefecture": "広島県",
+      "name": "福山市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-34207-fukuyama-shi-2020"
+    },
+    {
+      "code": "34208",
+      "prefecture": "広島県",
+      "name": "府中市",
+      "year": "2022",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-34208-fuchu-shi-2022"
+    },
+    {
+      "code": "34209",
+      "prefecture": "広島県",
+      "name": "三次市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-34209-miyoshi-shi-2022"
+    },
+    {
+      "code": "34304",
+      "prefecture": "広島県",
+      "name": "海田町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-34304-kaita-cho-2025"
+    },
+    {
+      "code": "35215",
+      "prefecture": "山口県",
+      "name": "周南市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-35215-shunan-shi-2024"
+    },
+    {
+      "code": "36201",
+      "prefecture": "徳島県",
+      "name": "徳島市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-36201-tokushima-shi-2023"
+    },
+    {
+      "code": "36387",
+      "prefecture": "徳島県",
+      "name": "美波町",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-36387-minami-cho-2025"
+    },
+    {
+      "code": "37201",
+      "prefecture": "香川県",
+      "name": "高松市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-37201-takamatsu-shi-2022"
+    },
+    {
+      "code": "37206",
+      "prefecture": "香川県",
+      "name": "さぬき市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-37206-sanuki-shi-2024"
+    },
+    {
+      "code": "38201",
+      "prefecture": "愛媛県",
+      "name": "松山市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-38201-matsuyama-shi-2020"
+    },
+    {
+      "code": "38203",
+      "prefecture": "愛媛県",
+      "name": "宇和島市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-38203-uwajima-shi-2025"
+    },
+    {
+      "code": "38215",
+      "prefecture": "愛媛県",
+      "name": "東温市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-38215-toon-shi-2023"
+    },
+    {
+      "code": "39201",
+      "prefecture": "高知県",
+      "name": "高知市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-39201-kouchi-shi-2023"
+    },
+    {
+      "code": "39203",
+      "prefecture": "高知県",
+      "name": "安芸市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-39203-aki-shi-2025"
+    },
+    {
+      "code": "39211",
+      "prefecture": "高知県",
+      "name": "香南市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-39211-konan-shi-2025"
+    },
+    {
+      "code": "39386",
+      "prefecture": "高知県",
+      "name": "いの町",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-39386-ino-cho-2024"
+    },
+    {
+      "code": "40100",
+      "prefecture": "福岡県",
+      "name": "北九州市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-40100-kitakyushu-shi-2020"
+    },
+    {
+      "code": "40202",
+      "prefecture": "福岡県",
+      "name": "大牟田市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-40202-omuta-shi-2023"
+    },
+    {
+      "code": "40203",
+      "prefecture": "福岡県",
+      "name": "久留米市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-40203-kurume-shi-2020"
+    },
+    {
+      "code": "40205",
+      "prefecture": "福岡県",
+      "name": "飯塚市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-40205-iizuka-shi-2020"
+    },
+    {
+      "code": "40220",
+      "prefecture": "福岡県",
+      "name": "宗像市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-40220-munakata-shi-2020"
+    },
+    {
+      "code": "40223",
+      "prefecture": "福岡県",
+      "name": "古賀市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-40223-koga-shi-2024"
+    },
+    {
+      "code": "40225",
+      "prefecture": "福岡県",
+      "name": "うきは市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-40225-ukiha-shi-2025"
+    },
+    {
+      "code": "40447",
+      "prefecture": "福岡県",
+      "name": "筑前町",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-40447-chikuzen-machi-2023"
+    },
+    {
+      "code": "41203",
+      "prefecture": "佐賀県",
+      "name": "鳥栖市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-41203-tosu-shi-2025"
+    },
+    {
+      "code": "41206",
+      "prefecture": "佐賀県",
+      "name": "武雄市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-41206-takeo-shi-2022"
+    },
+    {
+      "code": "41208",
+      "prefecture": "佐賀県",
+      "name": "小城市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-41208-ogi-shi-2022"
+    },
+    {
+      "code": "41423",
+      "prefecture": "佐賀県",
+      "name": "大町町",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-41423-omachi-cho-2022"
+    },
+    {
+      "code": "41424",
+      "prefecture": "佐賀県",
+      "name": "江北町",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-41424-kouhoku-machi-2022"
+    },
+    {
+      "code": "41425",
+      "prefecture": "佐賀県",
+      "name": "白石町",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-41425-shiroisi-chou-2022"
+    },
+    {
+      "code": "42202",
+      "prefecture": "長崎県",
+      "name": "佐世保市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-42202-sasebo-shi-2022"
+    },
+    {
+      "code": "42208",
+      "prefecture": "長崎県",
+      "name": "松浦市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-42208-matsuura-shi-2024"
+    },
+    {
+      "code": "42323",
+      "prefecture": "長崎県",
+      "name": "波佐見町",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-42323-hasami-cho-2024"
+    },
+    {
+      "code": "43100",
+      "prefecture": "熊本県",
+      "name": "熊本市",
+      "year": "2022",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-43100-kumamoto-shi-2022"
+    },
+    {
+      "code": "43204",
+      "prefecture": "熊本県",
+      "name": "荒尾市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-43204-arao-shi-2020"
+    },
+    {
+      "code": "43206",
+      "prefecture": "熊本県",
+      "name": "玉名市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-43206-tamana-shi-2024"
+    },
+    {
+      "code": "43213",
+      "prefecture": "熊本県",
+      "name": "宇城市",
+      "year": "2025",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-43213-uki-shi-2025"
+    },
+    {
+      "code": "43443",
+      "prefecture": "熊本県",
+      "name": "益城町",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-43443-mashiki-machi-2023"
+    },
+    {
+      "code": "44204",
+      "prefecture": "大分県",
+      "name": "日田市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-44204-hita-shi-2020"
+    },
+    {
+      "code": "44206",
+      "prefecture": "大分県",
+      "name": "臼杵市",
+      "year": "2023",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-44206-usuki-shi-2023"
+    },
+    {
+      "code": "45203",
+      "prefecture": "宮崎県",
+      "name": "延岡市",
+      "year": "2023",
+      "rank": "C",
+      "reason": "最新整備年度の建築物はLOD1のみ（箱型に見える）",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-45203-nobeoka-shi-2023"
+    },
+    {
+      "code": "46220",
+      "prefecture": "鹿児島県",
+      "name": "南さつま市",
+      "year": "2024",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-46220-minamisatsuma-shi-2024"
+    },
+    {
+      "code": "47201",
+      "prefecture": "沖縄県",
+      "name": "那覇市",
+      "year": "2020",
+      "rank": "A",
+      "reason": "最新整備年度の建築物3D TilesにLOD2以上かつテクスチャあり",
+      "source": "https://www.geospatial.jp/ckan/dataset/plateau-47201-naha-shi-2020"
+    }
+  ],
+  "prices": [
+    {
+      "area": "京都駅周辺",
+      "option": "標準変換",
+      "towns": "105",
+      "buildings": "3922",
+      "areaKm2": "1.5457",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "34000",
+      "note": "既に変換した京都駅周辺2メッシュと重なる町丁を、実測の棟数が入ったもの中心に束ねた例。町丁の境界は令和2年国勢調査の小地域で、現在の住居表示と完全には一致しない場合があります。"
+    },
+    {
+      "area": "京都駅周辺",
+      "option": "標準+AI鮮明化",
+      "towns": "105",
+      "buildings": "3922",
+      "areaKm2": "1.5457",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "122000",
+      "note": "既に変換した京都駅周辺2メッシュと重なる町丁を、実測の棟数が入ったもの中心に束ねた例。町丁の境界は令和2年国勢調査の小地域で、現在の住居表示と完全には一致しない場合があります。"
+    },
+    {
+      "area": "京都駅周辺",
+      "option": "標準+動画",
+      "towns": "105",
+      "buildings": "3922",
+      "areaKm2": "1.5457",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "51000",
+      "note": "既に変換した京都駅周辺2メッシュと重なる町丁を、実測の棟数が入ったもの中心に束ねた例。町丁の境界は令和2年国勢調査の小地域で、現在の住居表示と完全には一致しない場合があります。"
+    },
+    {
+      "area": "京都駅周辺",
+      "option": "標準+AI+動画",
+      "towns": "105",
+      "buildings": "3922",
+      "areaKm2": "1.5457",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "139000",
+      "note": "既に変換した京都駅周辺2メッシュと重なる町丁を、実測の棟数が入ったもの中心に束ねた例。町丁の境界は令和2年国勢調査の小地域で、現在の住居表示と完全には一致しない場合があります。"
+    },
+    {
+      "area": "港区 新橋・虎ノ門周辺",
+      "option": "標準変換",
+      "towns": "14",
+      "buildings": "1729",
+      "areaKm2": "1.7576",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "25000",
+      "note": "既に変換した2メッシュのうち、港区の町丁に位置する棟の実測。同じメッシュには中央区の建物もありますが、この例の金額には入れていません。"
+    },
+    {
+      "area": "港区 新橋・虎ノ門周辺",
+      "option": "標準+AI鮮明化",
+      "towns": "14",
+      "buildings": "1729",
+      "areaKm2": "1.7576",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "64000",
+      "note": "既に変換した2メッシュのうち、港区の町丁に位置する棟の実測。同じメッシュには中央区の建物もありますが、この例の金額には入れていません。"
+    },
+    {
+      "area": "港区 新橋・虎ノ門周辺",
+      "option": "標準+動画",
+      "towns": "14",
+      "buildings": "1729",
+      "areaKm2": "1.7576",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "42000",
+      "note": "既に変換した2メッシュのうち、港区の町丁に位置する棟の実測。同じメッシュには中央区の建物もありますが、この例の金額には入れていません。"
+    },
+    {
+      "area": "港区 新橋・虎ノ門周辺",
+      "option": "標準+AI+動画",
+      "towns": "14",
+      "buildings": "1729",
+      "areaKm2": "1.7576",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "81000",
+      "note": "既に変換した2メッシュのうち、港区の町丁に位置する棟の実測。同じメッシュには中央区の建物もありますが、この例の金額には入れていません。"
+    },
+    {
+      "area": "既変換の新橋・虎ノ門2メッシュ（中央区を含む）",
+      "option": "標準変換",
+      "towns": "24",
+      "buildings": "2646",
+      "areaKm2": "3.1577",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "32000",
+      "note": "既変換2メッシュの建物を、重なった町丁（港区および中央区）に割り当てた例。10都市報告の2,650棟との差は、境界に載らなかった棟があれば注記します。"
+    },
+    {
+      "area": "既変換の新橋・虎ノ門2メッシュ（中央区を含む）",
+      "option": "標準+AI鮮明化",
+      "towns": "24",
+      "buildings": "2646",
+      "areaKm2": "3.1577",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "92000",
+      "note": "既変換2メッシュの建物を、重なった町丁（港区および中央区）に割り当てた例。10都市報告の2,650棟との差は、境界に載らなかった棟があれば注記します。"
+    },
+    {
+      "area": "既変換の新橋・虎ノ門2メッシュ（中央区を含む）",
+      "option": "標準+動画",
+      "towns": "24",
+      "buildings": "2646",
+      "areaKm2": "3.1577",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "49000",
+      "note": "既変換2メッシュの建物を、重なった町丁（港区および中央区）に割り当てた例。10都市報告の2,650棟との差は、境界に載らなかった棟があれば注記します。"
+    },
+    {
+      "area": "既変換の新橋・虎ノ門2メッシュ（中央区を含む）",
+      "option": "標準+AI+動画",
+      "towns": "24",
+      "buildings": "2646",
+      "areaKm2": "3.1577",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "109000",
+      "note": "既変換2メッシュの建物を、重なった町丁（港区および中央区）に割り当てた例。10都市報告の2,650棟との差は、境界に載らなかった棟があれば注記します。"
+    },
+    {
+      "area": "札幌市中央区 北1条西3丁目",
+      "option": "標準変換",
+      "towns": "1",
+      "buildings": "27",
+      "areaKm2": "0.0197",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "16000",
+      "note": "条丁目の指定例。棟数は既変換2メッシュとの位置の重なりによる実測（メッシュ外の棟は含みません）。"
+    },
+    {
+      "area": "札幌市中央区 北1条西3丁目",
+      "option": "標準+AI鮮明化",
+      "towns": "1",
+      "buildings": "27",
+      "areaKm2": "0.0197",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "35000",
+      "note": "条丁目の指定例。棟数は既変換2メッシュとの位置の重なりによる実測（メッシュ外の棟は含みません）。"
+    },
+    {
+      "area": "札幌市中央区 北1条西3丁目",
+      "option": "標準+動画",
+      "towns": "1",
+      "buildings": "27",
+      "areaKm2": "0.0197",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "31000",
+      "note": "条丁目の指定例。棟数は既変換2メッシュとの位置の重なりによる実測（メッシュ外の棟は含みません）。"
+    },
+    {
+      "area": "札幌市中央区 北1条西3丁目",
+      "option": "標準+AI+動画",
+      "towns": "1",
+      "buildings": "27",
+      "areaKm2": "0.0197",
+      "rank": "A",
+      "basis": "実測（既変換範囲）",
+      "priceExTax": "52000",
+      "note": "条丁目の指定例。棟数は既変換2メッシュとの位置の重なりによる実測（メッシュ外の棟は含みません）。"
+    },
+    {
+      "area": "港区 全区",
+      "option": "標準変換",
+      "towns": "117",
+      "buildings": "1729",
+      "areaKm2": "20.4096",
+      "rank": "A",
+      "basis": "未実測を含む／推定",
+      "priceExTax": "個別見積もり",
+      "note": "区全体。未変換の町丁の棟数は0のままなので、棟数は一部実測のみ。全区の金額は不足データのため個別見積もり、または実測分だけの参考計算として扱います。"
+    },
+    {
+      "area": "港区 全区",
+      "option": "標準+AI鮮明化",
+      "towns": "117",
+      "buildings": "1729",
+      "areaKm2": "20.4096",
+      "rank": "A",
+      "basis": "未実測を含む／推定",
+      "priceExTax": "個別見積もり",
+      "note": "区全体。未変換の町丁の棟数は0のままなので、棟数は一部実測のみ。全区の金額は不足データのため個別見積もり、または実測分だけの参考計算として扱います。"
+    },
+    {
+      "area": "港区 全区",
+      "option": "標準+動画",
+      "towns": "117",
+      "buildings": "1729",
+      "areaKm2": "20.4096",
+      "rank": "A",
+      "basis": "未実測を含む／推定",
+      "priceExTax": "個別見積もり",
+      "note": "区全体。未変換の町丁の棟数は0のままなので、棟数は一部実測のみ。全区の金額は不足データのため個別見積もり、または実測分だけの参考計算として扱います。"
+    },
+    {
+      "area": "港区 全区",
+      "option": "標準+AI+動画",
+      "towns": "117",
+      "buildings": "1729",
+      "areaKm2": "20.4096",
+      "rank": "A",
+      "basis": "未実測を含む／推定",
+      "priceExTax": "個別見積もり",
+      "note": "区全体。未変換の町丁の棟数は0のままなので、棟数は一部実測のみ。全区の金額は不足データのため個別見積もり、または実測分だけの参考計算として扱います。"
+    },
+    {
+      "area": "京都市 下京区 全区",
+      "option": "標準変換",
+      "towns": "523",
+      "buildings": "2144",
+      "areaKm2": "6.7243",
+      "rank": "A",
+      "basis": "未実測を含む／推定",
+      "priceExTax": "個別見積もり",
+      "note": "区全体。既変換範囲外の町丁の棟数は未実測です。"
+    },
+    {
+      "area": "京都市 下京区 全区",
+      "option": "標準+AI鮮明化",
+      "towns": "523",
+      "buildings": "2144",
+      "areaKm2": "6.7243",
+      "rank": "A",
+      "basis": "未実測を含む／推定",
+      "priceExTax": "個別見積もり",
+      "note": "区全体。既変換範囲外の町丁の棟数は未実測です。"
+    },
+    {
+      "area": "京都市 下京区 全区",
+      "option": "標準+動画",
+      "towns": "523",
+      "buildings": "2144",
+      "areaKm2": "6.7243",
+      "rank": "A",
+      "basis": "未実測を含む／推定",
+      "priceExTax": "個別見積もり",
+      "note": "区全体。既変換範囲外の町丁の棟数は未実測です。"
+    },
+    {
+      "area": "京都市 下京区 全区",
+      "option": "標準+AI+動画",
+      "towns": "523",
+      "buildings": "2144",
+      "areaKm2": "6.7243",
+      "rank": "A",
+      "basis": "未実測を含む／推定",
+      "priceExTax": "個別見積もり",
+      "note": "区全体。既変換範囲外の町丁の棟数は未実測です。"
+    }
+  ],
+  "supporters": [],
+  "testPaymentLink": "https://buy.stripe.com/test_REPLACE_ME"
+}

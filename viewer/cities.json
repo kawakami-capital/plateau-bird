@@ -1,0 +1,23 @@
+[
+  {
+    "code": "YOUR_CITY_CODE",
+    "name": "都市名",
+    "area": "表示する範囲の名前",
+    "meshes": [
+      "12345678"
+    ],
+    "year": 2024,
+    "buildings": 0,
+    "textured_buildings": 0,
+    "catalog_url": "https://www.geospatial.jp/ckan/dataset/plateau-XXXXX",
+    "license": "PLATEAUサイトポリシー（PDL1.0、CC BY 4.0互換）。原典の個別条件を優先",
+    "license_url": "https://www.mlit.go.jp/plateau/site-policy/",
+    "manifest": "../data/outputs/CODE_都市名/viewer-manifest.json",
+    "attribution": "出典：3D都市モデル（Project PLATEAU）○○（YYYY年度）（国土交通省・G空間情報センター 〈カタログURL〉）。著作権者：〈地方公共団体名〉。PLATEAUサイトポリシー（PDL1.0、CC BY 4.0互換）に基づくCC BY 4.0での利用。部分取得、座標変換、三角形分割、画像縮小・JPEG再圧縮・アトラス化、GLB変換を実施。現況・個別条件は原典を確認。国土交通省の作成・公認物ではありません。",
+    "origin": [
+      35.0,
+      135.0
+    ],
+    "ground": "ground/YOUR_CITY_CODE/ground.json"
+  }
+]

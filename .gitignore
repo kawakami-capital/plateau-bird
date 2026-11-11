@@ -1,0 +1,40 @@
+# 作業環境
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.DS_Store
+.idea/
+.vscode/
+
+# 秘密情報・環境
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.enc
+credentials.json
+wrangler.toml.bak
+
+# 大きい変換成果（GLB・航空写真）。生成方法は README を参照。
+*.glb
+*.jpg
+*.jpeg
+!docs/screenshots/*.png
+viewer/ground/**/tiles/
+/data/
+/outputs/
+/_scratch/
+
+# ログ
+*.log
+
+# 決済用の本物の識別子はリポジトリに入れない
+support-plan/data/stripe-test.json
+
+# 大きい地図データ（e-Statの町丁境界など）はリポジトリに入れない
+support-plan/data/areas.json
+support-plan/data/map-*.geojson

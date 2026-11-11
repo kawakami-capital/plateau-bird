@@ -1,0 +1,19 @@
+# 公開配備は承認があるまで行わないこと。
+# wrangler deploy を実行すると、workers_dev が false でもアカウントに Worker が置かれます。
+# アカウントIDはファイルに書かず、環境変数 CLOUDFLARE_ACCOUNT_ID を使います。
+
+name = "plateau-bird"
+main = "src/index.js"
+compatibility_date = "2026-11-11"
+
+# workers.dev を出さない。誤って deploy しても即時の公開URLを作らないため。
+workers_dev = false
+preview_urls = false
+
+# 独自ドメインのルートは、ゾーン追加と公開の承認後に付ける。
+# routes = [{ pattern = "map.example.com/*", zone_name = "example.com" }]
+
+[[r2_buckets]]
+binding = "BUCKET"
+# 自分の R2 バケット名に置き換える。本番の識別子は書かない。
+bucket_name = "your-r2-bucket-name"

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "boundary_source": "令和2年国勢調査 町丁・字等境界データ（e-Stat）",
+    "boundary_url": "https://www.e-stat.go.jp/",
+    "license_note": "政府標準利用規約 第2.0版。出典と加工の記載が必要。このファイルは形の例だけです。",
+    "codes": [
+      "13103"
+    ]
+  },
+  "areas": [
+    {
+      "id": "13103:芝一丁目",
+      "code": "13103",
+      "pref": "東京都",
+      "muni": "東京23区",
+      "ward": "港区",
+      "muni_code": "13100",
+      "s_name": "芝一丁目",
+      "town": "芝",
+      "jou": "",
+      "chome": "一丁目",
+      "chome_n": 1,
+      "kind": "chome",
+      "aliases": [
+        "芝1丁目",
+        "芝一丁目"
+      ],
+      "area_km2": 0.07,
+      "buildings": 0,
+      "lod2": 0,
+      "textured": 0,
+      "textured_known": false,
+      "measured": false,
+      "cx": 139.75466,
+      "cy": 35.651263
+    }
+  ],
+  "presets": [],
+  "maps": {}
+}

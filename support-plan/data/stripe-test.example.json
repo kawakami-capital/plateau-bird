@@ -1,0 +1,21 @@
+{
+  "mode": "test",
+  "account": "acct_REPLACE_ME",
+  "livemode": false,
+  "tax_assumption": "画面上は税別表示。決済時は消費税10%（標準税率）を税別金額に加算する、などの運用は自分のアカウントで設定する。このファイルに本物のIDを書かないこと。",
+  "product": {
+    "name": "街の制作支援プラン（例）",
+    "default_price_id": "price_REPLACE_ME",
+    "default_price_ex_tax": 34000
+  },
+  "examples": {
+    "kyoto_station_standard": {
+      "label": "京都駅周辺・標準変換（例）",
+      "price_ex_tax": 34000,
+      "price_inc_tax": 37400,
+      "price_id": "price_REPLACE_ME",
+      "payment_link_id": "plink_REPLACE_ME",
+      "payment_link_url": "https://buy.stripe.com/test_REPLACE_ME"
+    }
+  }
+}

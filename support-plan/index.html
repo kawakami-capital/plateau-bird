@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>街の制作支援プラン（試作・テスト決済）</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="brand">PLATEAU 鳥視点マップ　制作支援プラン</div>
+  <div class="pill">試作・テストモード（本番課金なし）・未公開</div>
+</header>
+<main class="wrap">
+  <section class="hero">
+    <h1>市・区・町名・丁目（条丁目も）を指定して、<br>範囲に合わせて金額が変わるようにします。</h1>
+    <p class="lede">これは寄付ではありません。制作を依頼し、公開用の地図データと閲覧画面を整える有料の支援プランです。完成した街は誰でも見られ、プログラムと変換データは出典を付けたオープンな利用条件で公開する案です。いまの画面は社内確認用の試作です。京都駅周辺の標準プランは、Stripeのテスト決済（本番課金なし）まで進められます。</p>
+    <div class="banner">いま公開中の地図は、管理者のログインがある環境のままです。既存の10都市を誰でも見られるようにすること、決済を始めることは、確認と最後の承認のあとです。配信先は Cloudflare R2 を予定しています。Stripeはテストモードのみ接続しており、本番の有効化と公開はしていません。</div>
+  </section>
+
+  <h2>範囲を選んで、金額を見る</h2>
+  <p class="note">境界は令和2年国勢調査の町丁・字等データ（e-Stat）です。統計用の境界・名称は、いまの住居表示と一致しない場合があります。棟数の実測は、すでに変換したメッシュと重なる町丁だけです。この試作で町丁まで選べるのは、港区・中央区・京都市・札幌市中央区です。</p>
+
+  <div class="presets" id="presets"></div>
+
+  <div class="layout">
+    <section class="card">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px">
+        <select id="citySel" class="search" style="width:auto;min-width:160px">
+          <option value="港区">港区</option>
+          <option value="中央区">中央区</option>
+          <option value="京都市">京都市</option>
+          <option value="札幌市中央区">札幌市中央区</option>
+        </select>
+        <input id="q" class="search" type="search" placeholder="町名・条丁目で検索（例: 北1条西3丁目、東塩小路）" style="flex:1;min-width:200px">
+      </div>
+      <canvas id="map" width="800" height="420" aria-label="町丁の地図。クリックで選択"></canvas>
+      <p class="note">地図をクリックして追加・解除できます。緑が薄い町丁は、既変換範囲で棟数が取れているところです。</p>
+      <p>
+        <button type="button" class="ghost" id="selWard">表示中の区をすべて選ぶ</button>
+        <button type="button" class="ghost" id="selCity">市（または区）全体を選ぶ</button>
+        <button type="button" class="ghost" id="clearBtn">選択をクリア</button>
+      </p>
+      <div class="tree" id="tree"></div>
+    </section>
+
+    <aside class="card">
+      <h3>お客さま向けの見積もり</h3>
+      <label style="display:block;margin:6px 0"><input type="checkbox" id="ai"> AIで鮮明にする</label>
+      <label style="display:block;margin:6px 0"><input type="checkbox" id="video"> 指定角度の画像・短い紹介動画</label>
+      <div id="priceBox"></div>
+      <p style="margin-top:16px">
+        <button type="button" class="btn" id="reqBtn" disabled>この内容でリクエスト</button>
+      </p>
+      <label class="note" style="display:block;margin-top:12px"><input type="checkbox" id="internal"> 内部用の内訳（売上・費用・利益）を表示</label>
+    </aside>
+  </div>
+
+
+
+  <section class="corporate" id="corporate">
+    <h2>法人で自社専用に使いたい方へ</h2>
+    <p class="lede">完成した街を誰でも見られる公開版（オープンソース）とは別に、自社だけの環境で使いたい方向けの案内です。金額は案で、販売はまだ始めていません。</p>
+    <div class="layout">
+      <article class="card">
+        <p class="eyebrow">① 手順をまとめた有料note（案）</p>
+        <h3>自社専用の3D街並みサービスを作る手順</h3>
+        <p>オープンソースの閲覧画面・変換の手順・配置の方法を、自社で組み立てるための記事です。下書きはあります。投稿と販売は、内容の確認が終わってからにします。</p>
+        <div class="price">9,800円 <small>税込・仮置き（未確定）</small></div>
+        <p class="note">価格は案です。例として税込9,800円を仮置きしています。販売開始の前に見直します。記事の投稿はしていません。</p>
+      </article>
+      <article class="card">
+        <p class="eyebrow">② 個別の導入対応</p>
+        <h3>非公開の配置・物件エリアの変換・保守</h3>
+        <ul class="plain">
+          <li>ログイン制限つきの非公開配置</li>
+          <li>自社物件エリアの変換</li>
+          <li>保守</li>
+        </ul>
+        <div class="price">個別見積もり <small>税別</small></div>
+        <p>問い合わせ先：合同会社Kawakami Capital Research &amp; Partners<br>
+        ウェブサイト：<a href="https://www.kawakamiconsulting.com/">https://www.kawakamiconsulting.com/</a><br>
+        電話番号・所在地は、公開サイトの「特定商取引法に基づく表記」をご覧ください（このリポジトリには掲載しません）。</p>
+        <p class="note">範囲や要件を伺ってから見積もります。自動では金額を出しません。依頼が確定するまで作業は始めません。</p>
+      </article>
+    </div>
+    <div class="internal" id="corporateInternal" hidden>
+      <h3>内部用の目安（お客さま向けの画面には出さない案です。公開前に残すか要確認）</h3>
+      <p>売上と利益は分けて書きます。販売見込みではありません。noteの手数料は、公式ヘルプ「コンテンツを販売する際に引かれる手数料」（更新 2025年1月6日）を2026年11月11日に確認した数字です。購入者の決済手段で変わります。</p>
+      <table>
+        <tr><th>有料note 1部の売上（税込・仮置き）</th><td>9,800円</td></tr>
+        <tr><th>費用（カード決済の例）：事務手数料 5%</th><td>490円</td></tr>
+        <tr><th>費用（同）：プラットフォーム利用料 10%（手数料差引後）</th><td>931円</td></tr>
+        <tr><th>note手数料の小計（1部・カード）</th><td>1,421円</td></tr>
+        <tr><th>手数料差引後（振込前）</th><td>8,379円</td></tr>
+        <tr><th>振込手数料</th><td>1回あたり270円（複数件をまとめた場合は按分）</td></tr>
+        <tr><th>記事制作の作業費（推定・未実測）</th><td>例：8時間 × 4,000円 = 32,000円（一括）</td></tr>
+        <tr><th>1部だけ・振込1回の利益</th><td>8,379 − 270 − 32,000 = −23,891円（制作費未回収）</td></tr>
+        <tr><th>10部・カード・振込1回の売上</th><td>98,000円</td></tr>
+        <tr><th>同・費用（手数料14,210 + 振込270 + 制作32,000）</th><td>46,480円</td></tr>
+        <tr><th>同・利益</th><td>51,520円（利益率 約52.6%）</td></tr>
+      </table>
+      <p>個別の導入対応は、作業・配信・保守の費用を積み上げ、決済手数料を引いたあとで利益率50%を目標にする案です。範囲が決まらないと売上も利益も出せないため、金額は見積もりにします。</p>
+    </div>
+  </section>
+
+  <section class="card" id="supporters" style="margin-top:28px">
+    <h2 style="margin-top:0">支援者の掲載（試作の表示例）</h2>
+    <p class="note">対外的な呼び方は「寄付者」ではなく「支援者」とします。掲載は本人の同意がある場合のみで、既定は匿名です。下の名前は表示の例であり、実在の申し込みではありません。</p>
+    <h3>全体</h3>
+    <div id="supOverall"></div>
+    <h3 style="margin-top:16px">完成した街ごと</h3>
+    <div id="supByArea"></div>
+    <p class="note">削除や表示名の変更の依頼には、可能な範囲で対応する案です。</p>
+  </section>
+
+  <section class="card" id="notify" style="margin-top:16px">
+    <h2 style="margin-top:0">完成したらメールでお知らせする（設計・未送信）</h2>
+    <p class="note">「支援してくれた方に、完成したらメールで通知する」方針の設計です。Checkoutで取得したメールを注文と街に紐づけ、公開後に「完成のお知らせ」を送ります。この試作からは、テスト用の宛先にもメールを送っていません。</p>
+    <ol class="flow">
+      <li>決済画面でメールアドレスを入力する（Stripeが顧客として保存します）</li>
+      <li>支払い完了の通知（webhook）で、支援者と範囲（街）・掲載の希望を注文として残す</li>
+      <li>街が公開されたら、その注文のメールへ完成のお知らせを送る（公開URL、掲載名または匿名、お礼）</li>
+    </ol>
+    <h3>送信手段の比較（2026年11月11日確認）</h3>
+    <table class="cmp">
+      <thead><tr><th>手段</th><th>向いていること</th><th>費用の目安</th><th>今回の判断</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Stripeの領収書</td>
+          <td>決済が完了したときの領収書</td>
+          <td>標準の支払い領収書に追加料金の記載はありません。ダッシュボードで有効化が必要です。支払後の請求書PDFは別料金の場合があります</td>
+          <td>決済完了の連絡に使う。完成通知の代わりにはしません</td>
+        </tr>
+        <tr>
+          <td>Cloudflare Email Sending</td>
+          <td>公開後の完成通知など、取引メール</td>
+          <td>任意の宛先へ送るには Workers Paid が必要です。公式（2026年11月11日確認）では、月3,000通まで込み、以降は1,000通あたり0.35ドルです。認証済みの自分宛は無料です。送信ドメインの設定が必要です</td>
+          <td>完成通知の第一候補（配信もR2の予定のため）</td>
+        </tr>
+        <tr>
+          <td>Gmail / Google Workspace</td>
+          <td>個別の返信や予備</td>
+          <td>個人のGmailは自動送信の上限があり、取引メールの本経路には向きません。Workspaceを既に使っている場合の費用は契約によります</td>
+          <td>本経路にはしません。個別の問い合わせ返信の予備です</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>文面（下書き・未送信）</h3>
+    <pre class="mail">件名：【完成のお知らせ】{{範囲}}の街が公開されました
+
+{{掲載名または「支援者」}} さま
+
+このたびは、街の制作支援プランをお申し込みいただき、ありがとうございました。
+ご支援いただいた「{{範囲}}」の地図が公開されました。
+
+公開ページ：{{公開URL}}
+
+支援者名の掲載：{{「ページ上に〇〇として掲載しています」または「ご希望どおり、お名前は掲載していません」}}
+
+掲載の削除や表示名の変更は、このメールへの返信または下記までご連絡ください。
+
+合同会社Kawakami Capital Research &amp; Partners
+責任者：川上将司
+（所在地は公開サイトの特商法表記を参照。このリポジトリには掲載しません）
+電話：（公開サイトの特商法表記を参照。このリポジトリには掲載しません）</pre>
+  </section>
+
+  <section class="legal">
+    <h2>特定商取引法に基づく表記（下書き）</h2>
+    <p>本採用の前に、金額の目安や取消しの条件など、<strong>要確認</strong>と記した項目は専門家と内容を固めてください。これは法律の助言ではありません。</p>
+    <dl>
+      <dt>販売業者</dt>
+      <dd>合同会社Kawakami Capital Research &amp; Partners</dd>
+      <dt>運営責任者</dt>
+      <dd>川上将司</dd>
+      <dt>所在地</dt>
+      <dd>（所在地は公開サイトの特商法表記を参照。このリポジトリには掲載しません）</dd>
+      <dt>電話番号</dt>
+      <dd>（公開サイトの特商法表記を参照。このリポジトリには掲載しません）</dd>
+      <dt>ウェブサイト</dt>
+      <dd><a href="https://www.kawakamiconsulting.com/">https://www.kawakamiconsulting.com/</a></dd>
+      <dt>役務の対価</dt>
+      <dd>画面に表示する税別金額に、消費税10%（標準税率）を加えた税込額を、決済時にご請求します。範囲（市・区・町名・丁目）と、AI鮮明化・動画などのオプションにより変動します。広い範囲は個別見積もりです。（税率の当てはめは要確認）</dd>
+      <dt>対価以外に必要な費用</dt>
+      <dd>送料はありません（データと閲覧画面の提供です）。インターネット接続の通信費はお客さまの負担です。上記以外の追加費用は、発生する前に見積もりで示します。（要確認）</dd>
+      <dt>支払の時期・方法</dt>
+      <dd>申し込み時に、Stripe（Checkout または Payment Links）でお支払いください。支払いの完了を確認してから制作に入ります。いま接続しているのはテストモードのみで、本番の課金は開始していません。（要確認）</dd>
+      <dt>連絡方法</dt>
+      <dd>申し込み時にStripeへご入力いただいたメールアドレスへ、受付の確認と、街が完成して公開したときのお知らせを送ります。掲載名の削除・変更の依頼も、同じ連絡先で受け付けます。（要確認）</dd>
+      <dt>支援者名の掲載</dt>
+      <dd>決済画面で「掲載名を公開する（同意する）」を選び、掲載名を入力した場合のみ、支援者名を公開します。既定は「名前を掲載しない（匿名）」です。同意なく氏名を載せることはしません。削除や表示名の変更の依頼には、可能な範囲で対応します。（要確認）</dd>
+      <dt>役務の提供時期</dt>
+      <dd>支払い確認後、標準の変換は目安として2週間以内に公開できるよう進めます。混雑時や範囲が広い場合、AIオプションを付ける場合は延長し、その旨を連絡します。全区・全市などは個別に時期を案内します。（要確認）</dd>
+      <dt>申し込みの撤回・解除、返金</dt>
+      <dd>受注後に制作するデジタル役務です。制作に着手する前のキャンセルは受け付け、受領済みの代金は返金する案です。着手後（範囲の確定と変換作業の開始後）は、成果物の性質上、原則として返金しません。公開済みデータの削除希望には、可能な範囲で対応します。詳細は本採用前に条文として確定します。（要確認）</dd>
+      <dt>契約不適合（内容が案内と違う場合）</dt>
+      <dd>原典データのLODや外観の有無、整備年度の限界は、申し込み前の画面で明示します。これら原典の制約自体は不適合の対象にしない案です。こちらの作業ミスで公開内容が案内と明らかに違う場合は、修正または返金を検討します。（要確認）</dd>
+      <dt>動作環境</dt>
+      <dd>パソコンまたはタブレットで、WebGLが使える最新の Google Chrome、Safari、Microsoft Edge を想定しています。通信環境や端末の性能により、表示の滑らかさは変わります。（要確認）</dd>
+      <dt>販売数量・範囲の制限</dt>
+      <dd>同じ範囲の重複制作はお受けしないことがあります。未実測の広い範囲（区全体・市全体など）は、自動の金額ではなく個別見積もりとします。</dd>
+    </dl>
+    <p>「寄付」という名称は使いません。制作や名前の表示、先行確認が対価になるため、通信販売（役務の提供）として扱う案です。</p>
+  </section>
+</main>
+<footer class="wrap">
+  このページは社内確認用の試作です。Stripeはテストモードのみ接続しています。本番の有効化、公開、完成通知メールの送信は行っていません。<br>
+  建物データは国土交通省 Project PLATEAU および各地方公共団体の3D都市モデルを加工して作成する予定です。<br>
+  町丁の境界は「令和2年国勢調査 町丁・字等境界データ」（政府統計の総合窓口 e-Stat）を加工して作成しています。<br>
+  更新：2026年11月11日（日本時間）
+</footer>
+<dialog id="dlg">
+  <div class="dlg">
+    <h3>制作リクエスト（試作）</h3>
+    <p id="dlgBody" class="note"></p>
+    <p>
+      <button class="ghost" type="button" id="cancelBtn">閉じる</button>
+      <button class="btn" type="button" id="payBtn" disabled>Stripeのテスト決済へ（本番課金なし）</button>
+    </p>
+  </div>
+</dialog>
+<script src="app.js"></script>
+</body>
+</html>

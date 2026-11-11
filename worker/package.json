@@ -1,0 +1,12 @@
+{
+  "name": "plateau-bird",
+  "private": true,
+  "description": "Cloudflare Worker that serves the PLATEAU bird viewer from an R2 bucket. Do not deploy until publication is approved.",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "dry-run": "wrangler deploy --dry-run --outdir dist"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  }
+}

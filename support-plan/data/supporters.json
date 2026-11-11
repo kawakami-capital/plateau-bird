@@ -1,0 +1,75 @@
+{
+  "disclaimer": "以下は試作画面の表示例です。実在の申し込みや実名ではありません。掲載は本人の同意がある場合のみで、既定は匿名です。",
+  "overall": [
+    {
+      "display_name": "山田 太郎",
+      "listed": true,
+      "area": "京都駅周辺",
+      "status": "制作待ち（表示例）"
+    },
+    {
+      "display_name": "京都マップを応援する会",
+      "listed": true,
+      "area": "京都駅周辺",
+      "status": "制作待ち（表示例）"
+    },
+    {
+      "display_name": null,
+      "listed": false,
+      "area": "京都駅周辺",
+      "status": "制作待ち（表示例）"
+    },
+    {
+      "display_name": "佐藤",
+      "listed": true,
+      "area": "港区 新橋・虎ノ門周辺",
+      "status": "制作待ち（表示例）"
+    },
+    {
+      "display_name": null,
+      "listed": false,
+      "area": "札幌市中央区 北1条西3丁目",
+      "status": "制作待ち（表示例）"
+    }
+  ],
+  "by_area": [
+    {
+      "area": "京都駅周辺",
+      "status": "未公開・表示例",
+      "supporters": [
+        {
+          "display_name": "山田 太郎",
+          "listed": true
+        },
+        {
+          "display_name": "京都マップを応援する会",
+          "listed": true
+        },
+        {
+          "display_name": null,
+          "listed": false
+        }
+      ]
+    },
+    {
+      "area": "港区 新橋・虎ノ門周辺",
+      "status": "未公開・表示例",
+      "supporters": [
+        {
+          "display_name": "佐藤",
+          "listed": true
+        }
+      ]
+    },
+    {
+      "area": "札幌市中央区 北1条西3丁目",
+      "status": "未公開・表示例",
+      "supporters": [
+        {
+          "display_name": null,
+          "listed": false
+        }
+      ]
+    }
+  ]
+}

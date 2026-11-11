@@ -1,0 +1,17 @@
+{
+  "name": "plateau-bird-local-checks",
+  "private": true,
+  "scripts": {
+    "test:viewer": "node viewer/tests/test-add-area.mjs",
+    "test:studio": "node viewer/tests/test-studio.mjs",
+    "test:flight": "node viewer/tests/test-free-flight.mjs",
+    "test:panel": "node viewer/tests/test-tools-panel.mjs",
+    "test:textures": "node viewer/tests/test-textures.mjs"
+  },
+  "devDependencies": {
+    "linkedom": "0.18.12"
+  },
+  "dependencies": {
+    "mediabunny": "1.65.2"
+  }
+}
