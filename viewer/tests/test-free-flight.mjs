@@ -58,8 +58,8 @@ assert.match(page.querySelector('footer').textContent,/PLATEAU.*国土地理院/
 const label=page.querySelector('#open-source-label');
 assert.equal(label.getAttribute('href'),'https://github.com/kawakami-capital/plateau-bird');
 assert.equal(label.getAttribute('target'),'_blank');
-assert.match(label.textContent,/オープンソース｜誰でも簡単にコピーして利用可能です！！/);
-assert.match(label.textContent,/オープンソース｜コピーして利用可能！！/);
+assert.equal(page.querySelector('.open-source-full').textContent,'オープンソース｜コピー可');
+assert.equal(page.querySelector('.open-source-short').textContent,'オープンソース｜コピー可');
 const repoLinks=[...page.querySelector('#about').querySelectorAll('a')].filter(a=>a.getAttribute('href')==='https://github.com/kawakami-capital/plateau-bird');
 assert.equal(repoLinks.length,1);assert.equal(repoLinks[0].getAttribute('target'),'_blank');
 assert.equal(page.querySelector('#about').textContent.includes('公開準備中'),false);
