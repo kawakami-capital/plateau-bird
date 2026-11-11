@@ -1,0 +1,4 @@
+export function catalogPolicy(count,{fullCoverage=false}={}){if(!Number.isInteger(count)||count<1||count>192)throw Error('画像層数が対応範囲外');return {baseSize:fullCoverage&&count>64?256:512,depthSize:fullCoverage?512:1024,packedDepth:fullCoverage,coverageRadius:fullCoverage?Infinity:650};}
+export function resolveCatalog(list,base){const origin=new URL(base).origin;const seen=new Set();return list.map(v=>{if(seen.has(v.id))throw Error('重複視点ID');seen.add(v.id);const out={...v};for(const key of ['color','colorBase','color512','color1024','color2048','depth'])if(out[key]){const u=new URL(out[key],base);if(u.origin!==origin)throw Error('外部データは使いません');out[key]=u.href;}if(!out.color512||!out.color1024||!out.color2048||!out.depth||v.matrix?.length!==16||v.inverse?.length!==16)throw Error('視点メタデータが不足');return out;});}
+export function encodeDepth24(r,g,b){return Math.min(65535,Math.round((r*65536+g*256+b)*.1));}
+export function encodeDepth(rgb){return encodeDepth24(...rgb);}
