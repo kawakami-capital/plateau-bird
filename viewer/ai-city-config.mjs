@@ -114,5 +114,32 @@ export const AI_CITY_CATALOGS = {
       99
     ],
     "generatedCount": 80
+  },
+  "01100": {
+    "catalog": "/bird/releases/20261111-urban-gemini/city-01100-views-a84da6b1e45ab49b.json",
+    "fullCoverage": true,
+    "acceptedCount": 71,
+    "heldOriginal": [
+      1,
+      8,
+      22,
+      38,
+      47,
+      49,
+      52,
+      68,
+      69,
+      73,
+      74,
+      77,
+      79,
+      80,
+      83,
+      84,
+      85,
+      88,
+      89
+    ],
+    "generatedCount": 78
   }
 };
