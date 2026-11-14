@@ -36,14 +36,14 @@ assert.equal(toggle.getAttribute('aria-pressed'),'false');
 assert.match(toggle.textContent,/自動で飛ぶ/);
 assert.equal(toggle.getAttribute('aria-label'),'自動で飛ぶ');
 assert.equal(document.querySelectorAll('[data-move]').length,0);
-assert.equal(api.start(),true);assert.equal(controls.enabled,false);assert.equal(api.active,true);
+assert.equal(api.start(),true);assert.equal(controls.enabled,false);assert.equal(api.active,true);assert.match(toggle.textContent,/止める/);assert.equal(toggle.getAttribute('aria-label'),'自動飛行を止める');
 const zBefore=camera.position.z,yBefore=camera.position.y;
 for(let t=1000;t<=4000;t+=16)api.update(t);
 assert.ok(Math.hypot(camera.position.x,camera.position.z-zBefore,camera.position.y-yBefore)>8,'入力なしで移動する');
 function event(type,props,target=window){const e=new window.Event(type,{bubbles:true,cancelable:true});Object.assign(e,props);target.dispatchEvent(e);}
 const canvas=document.querySelector('canvas');
 event('pointerdown',{pointerId:1,clientX:10,clientY:10},canvas);
-assert.equal(api.active,false);assert.equal(controls.enabled,true);assert.equal(document.getElementById('free-flight-panel').hidden,true);
+assert.equal(api.active,false);assert.equal(controls.enabled,true);assert.equal(document.getElementById('free-flight-panel').hidden,true);assert.match(toggle.textContent,/自動で飛ぶ/);
 assert.equal(api.start(),true);
 event('keydown',{code:'Escape'});
 assert.equal(api.active,false);
