@@ -71,3 +71,12 @@
 }
 #location-panel .tool-subhead{margin:16px 0 0;padding-top:12px;border-top:1px solid #e1ebe5;font-size:13px;font-weight:700;color:#1f4a3b}
 @media(max-width:760px){.caption p{color:#163a3d!important;font-weight:600;text-shadow:0 0 6px #fff,0 0 12px #fffc!important}.caption h1{text-shadow:0 0 10px #fff,0 0 18px #ffffffb0}}
+/* 建物・住所を選んだあとは入力欄・候補・説明を隠す（「別の建物を探す」で戻る） */
+.tool-item.picked #search-form,.tool-item.picked #search-results,.tool-item.picked>.small,.tool-item.picked #tower-demo,.tool-item.picked #studio-address,.tool-item.picked #studio-address-results,.tool-item.picked>.tools-fine,.tool-item.picked>.tool-subhead{display:none!important}
+.search-again[hidden]{display:none!important}
+.tool-item.picked #building-info{border-top:0;margin-top:4px;padding-top:4px}
+.search-again{background:transparent!important;border:1px dashed #8fb9a5!important;color:#235b46!important}
+#tool-address .search-again{display:block;margin-top:8px}
+/* iPhoneは文字が16px未満の入力欄に触れると画面を拡大するため、スマホ・タッチ端末では16pxにそろえる（拡大の禁止はしない） */
+.search-row input{flex:1 1 auto;min-width:0}.search-row button{flex:0 0 auto;white-space:nowrap}
+@media (max-width:760px),(pointer:coarse){input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea{font-size:16px!important}header .city-picker .city-box select{font-size:16px!important}#location-panel input:not([type=checkbox]){padding:8px 10px}}
